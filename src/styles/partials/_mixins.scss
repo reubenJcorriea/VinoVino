@@ -1,2 +1,94 @@
 @use "variables" as *;
 @use "typography" as *;
+
+@mixin tablet {
+    @media screen and (min-width: $tablet-breakpoint) {
+      @content;
+    }
+  }
+
+// TEXT-STYLE MIXINS
+
+@mixin text__page-header {
+    font-family: Merriweather-Italic-Bold;
+    font-size: 2.75rem;
+    line-height: 4.25rem;
+    font-weight: 600;
+  
+    @include tablet() {
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+  }
+  
+  @mixin text__subheader {
+    font-family: Futura-Book;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  
+    @include tablet() {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  }
+  
+  @mixin text__links {
+    font-family: Futura-Book;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+  
+    @include tablet() {
+      font-size: 0.875rem;
+      line-height: 1.375rem;
+    }
+  }
+  
+  @mixin text__table-header {
+    font-family: Futura-Book;
+    font-size: 0.688rem;
+    line-height: 1rem;
+    font-weight: 600;
+  
+    @include tablet() {
+      font-size: 0.75rem;
+      line-height: 1.125rem;
+    }
+  }
+  
+  @mixin text__body-large {
+    font-family: Futura-Book;
+    font-size: 0.938rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+  
+    @include tablet {
+      font-size: 1rem;
+      line-height: 1.75rem;
+    }
+  }
+  
+  @mixin text__body-medium {
+    font-family: Futura-Book;
+    font-size: 0.813rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+  
+    @include tablet {
+      font-size: 0.875rem;
+      line-height: 1.375rem;
+    }
+  }
+  
+  @mixin text__body-small {
+    font-family: Futura-Book;
+    font-size: 0.688rem;
+    line-height: 1rem;
+    font-weight: 400;
+  
+    @include tablet {
+      font-size: 0.75rem;
+      line-height: 1.125rem;
+    }
+  }

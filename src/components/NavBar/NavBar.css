@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Futura-Book";
+  src: url("../../assets/fonts/woff/FuturaLT-Book.woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Merriweather-Italic-Bold";
+  src: url("../../assets/fonts/woff/Merriweather-BlackItalic.woff");
+  font-weight: 900;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: Merriweather-Italic-Bold;
+  font-size: 2.75rem;
+  line-height: 4.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+
+h2 {
+  font-family: Futura-Book;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+h3 {
+  font-family: Futura-Book;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  h3 {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+  }
+}
+
+h4 {
+  font-family: Futura-Book;
+  font-size: 0.688rem;
+  line-height: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  h4 {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  }
+}
+
+p {
+  font-family: Futura-Book;
+  font-size: 0.938rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+}
+
+b {
+  font-family: Futura-Book;
+  font-size: 0.938rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  b {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+}
+
+input {
+  font-family: Futura-Book;
+  font-size: 0.938rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  input {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  height: 7.5vh;
+  background-color: rgb(216, 222, 222);
+  border-top: white solid 0.25rem;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  gap: 2rem;
+  justify-content: center;
+  padding: 0.25rem 0;
+  height: 100%;
+}
+.nav-container__home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 5rem;
+  height: 90%;
+}
+.nav-container__about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 5rem;
+  height: 90%;
+}
+.nav-container__discover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 5rem;
+  height: 90%;
+}/*# sourceMappingURL=NavBar.css.map */

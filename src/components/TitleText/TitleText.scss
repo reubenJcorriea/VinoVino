@@ -1,0 +1,10 @@
+@use "../../styles/partials/elements" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.title {
+  color: #fff;
+  text-shadow: 0 0 2px #fff, 0 0 8px #fff, 0 0 21px #fff, 0 0 42px #f09,
+    0 0 82px #f09, 0 0 92px #f09, 0 0 102px #f09, 0 0 151px #f09;
+}

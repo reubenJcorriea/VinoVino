@@ -11,3 +11,38 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+h1 {
+  @include text__page-header;
+  margin: 0;
+}
+
+h2 {
+  @include text__subheader;
+  margin: 0;
+}
+
+h3 {
+  @include text__links;
+  margin: 0;
+}
+
+h4 {
+  @include text__table-header;
+  margin: 0;
+}
+
+p {
+  @include text__body-large;
+  margin: 0;
+}
+
+b {
+  @include text__body-large;
+  font-weight: 700;
+}
+
+input {
+  @include text__body-large;
+  margin: 0;
+}
