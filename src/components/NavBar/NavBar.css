@@ -120,8 +120,7 @@ input {
   display: flex;
   flex-direction: column;
   height: 7.5vh;
-  background-color: rgb(216, 222, 222);
-  border-top: white solid 0.25rem;
+  background-color: #890620;
 }
 
 .nav-container {
@@ -130,8 +129,8 @@ input {
   align-items: center;
   align-content: center;
   gap: 2rem;
-  justify-content: center;
-  padding: 0.25rem 0;
+  justify-content: space-between;
+  padding: 0.25rem 1rem;
   height: 100%;
 }
 .nav-container__home {
@@ -141,6 +140,7 @@ input {
   align-content: center;
   width: 5rem;
   height: 90%;
+  color: #D8E2DC;
 }
 .nav-container__about {
   display: flex;
@@ -149,6 +149,7 @@ input {
   align-content: center;
   width: 5rem;
   height: 90%;
+  color: #D8E2DC;
 }
 .nav-container__discover {
   display: flex;
@@ -157,4 +158,5 @@ input {
   align-content: center;
   width: 5rem;
   height: 90%;
+  color: #D8E2DC;
 }/*# sourceMappingURL=NavBar.css.map */

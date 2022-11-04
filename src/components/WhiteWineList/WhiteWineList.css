@@ -116,22 +116,18 @@ input {
   }
 }
 
-body {
-  background: rgb(255, 246, 246);
-  background: linear-gradient(57deg, rgb(255, 246, 246) 0%, rgb(249, 246, 246) 100%);
-  height: 100vh;
-}
-
-.home {
+.white-wine-list {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 1.5rem 3rem;
-  height: 92.5vh;
-  gap: 1rem;
+  padding: 1.5rem 2rem;
+  border: 0.063rem solid black;
 }
-.home__title {
-  padding-bottom: 1rem;
-}/*# sourceMappingURL=HomePage.css.map */
+.white-wine-list__wine {
+  padding-bottom: 0.5rem;
+}
+.white-wine-list__wine--name {
+  margin: 0;
+}
+.white-wine-list__winery--name {
+  margin: 0;
+}/*# sourceMappingURL=WhiteWineList.css.map */
