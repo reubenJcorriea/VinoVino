@@ -4,11 +4,12 @@
 @use "../../styles/partials/variables" as *;
 
 .nav {
+  position: fixed;
   display: flex;
   flex-direction: column;
   height: 7.5vh;
+  width: 100%;
   background-color: $maroon;
-  // border-top: white solid .25rem;
 }
 
 .nav-container {
@@ -18,7 +19,7 @@
   align-content: center;
   gap: 2rem;
   justify-content: space-between;
-  padding: .25rem 1rem;
+  padding: 0.25rem 2rem;
   height: 100%;
 
   &__home {
@@ -26,28 +27,28 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 5rem;
+    width: 6rem;
     height: 90%;
-    color: $grey;
+    color: white;
+    text-shadow: black 1px 3px;
   }
 
-  &__about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 5rem;
-    height: 90%;
-    color: $grey;
-  }
 
   &__discover {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 5rem;
+    width: 6rem;
     height: 90%;
-    color: $grey;
+    color: white;
+    text-shadow: black 1px 3px;
   }
+}
+
+.link-nav {
+  width: fit-content;
+  height: fit-content;
+  text-decoration: none;
+  margin: 0;
 }

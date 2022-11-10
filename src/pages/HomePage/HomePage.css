@@ -130,8 +130,43 @@ body {
   align-items: center;
   padding: 2rem 1.5rem 3rem;
   height: 92.5vh;
-  gap: 1rem;
+  gap: 2rem;
 }
 .home__title {
-  padding-bottom: 1rem;
+  padding: 2.5rem 0;
+}
+.home__search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 90vw;
+  padding: 0 1rem;
+}
+.home__search--input {
+  text-align: center;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0.5rem 0;
+  border: #b7b6b8 solid 1px;
+  border-radius: 1.25rem;
+}
+.home__search--input:focus-visible {
+  outline: 0.125rem solid #EBD4CB;
+  border: none;
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.search-results__container--name {
+  font-size: 1rem;
+}
+
+.search-link {
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=HomePage.css.map */

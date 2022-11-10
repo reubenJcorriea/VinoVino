@@ -1,0 +1,64 @@
+@use "../../styles/partials/elements" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.wine-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem 2rem;
+  height: 92.5vh;
+  background: rgb(255, 114, 107);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 114, 107, 1) 0%,
+    rgba(255, 235, 235, 1) 43%
+  );
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    margin: 0 1rem;
+    padding: 1rem 1rem;
+    border: solid black 0.063rem;
+    background-color: white;
+
+    &--winery {
+      width: 100%;
+      padding: 1rem 0;
+    }
+
+    &--location {
+      width: 100%;
+      padding-bottom: 1rem;
+    }
+
+    &--rating {
+      width: 100%;
+      padding-bottom: 1rem;
+    }
+
+    &--pairing {
+      width: 100%;
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+.favourite-container {
+
+  &__button {
+    padding: 1rem;
+    width: 15rem;
+    font-size: 1rem;
+    background-color: $white;
+    border: 0.063rem solid black;
+
+  }
+}

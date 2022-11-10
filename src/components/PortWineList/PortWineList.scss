@@ -18,6 +18,13 @@
   }
 
   &__winery {
+    padding-bottom: 0.5rem;
+    &--name {
+      margin: 0;
+    }
+  }
+
+  &__origin {
     &--name {
       margin: 0;
     }

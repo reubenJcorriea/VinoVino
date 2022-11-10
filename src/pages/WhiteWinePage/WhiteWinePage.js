@@ -27,7 +27,7 @@ function WhiteWinePage({ wineID }) {
       <div className="white-wine-page__title-container">
         <h1 className="white-wine-page__title-container--title">WHITE WINE LIST</h1>
       </div>
-      {whiteWine && whiteWine.map((wine) => <WhiteWineList wineId={wine.id} />)}
+      {whiteWine && whiteWine.map((wine) => <WhiteWineList wineId={wine.id} key={wine.id} />)}
     </div>
   );
 }

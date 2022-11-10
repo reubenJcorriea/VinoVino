@@ -27,7 +27,7 @@ function SparklingWinePage({ wineID }) {
       <div className="sparkling-wine-page__title-container">
         <h1 className="sparkling-wine-page__title-container--title">SPARKLING WINE LIST</h1>
       </div>
-      {sparklingWine && sparklingWine.map((wine) => <SparklingWineList wineId={wine.id} />)}
+      {sparklingWine && sparklingWine.map((wine) => <SparklingWineList wineId={wine.id} key={wine.id} />)}
     </div>
   );
 }

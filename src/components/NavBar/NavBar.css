@@ -117,9 +117,11 @@ input {
 }
 
 .nav {
+  position: fixed;
   display: flex;
   flex-direction: column;
   height: 7.5vh;
+  width: 100%;
   background-color: #890620;
 }
 
@@ -130,7 +132,7 @@ input {
   align-content: center;
   gap: 2rem;
   justify-content: space-between;
-  padding: 0.25rem 1rem;
+  padding: 0.25rem 2rem;
   height: 100%;
 }
 .nav-container__home {
@@ -138,25 +140,29 @@ input {
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 5rem;
+  width: 6rem;
   height: 90%;
-  color: #D8E2DC;
-}
-.nav-container__about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  width: 5rem;
-  height: 90%;
-  color: #D8E2DC;
+  color: white;
+  text-shadow: black 1px 3px;
 }
 .nav-container__discover {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 5rem;
+  width: 6rem;
   height: 90%;
-  color: #D8E2DC;
+  color: white;
+  text-shadow: black 1px 3px;
+}
+
+.link-nav {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-decoration: none;
+  margin: 0;
 }/*# sourceMappingURL=NavBar.css.map */

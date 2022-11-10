@@ -120,7 +120,8 @@ input {
   display: flex;
   flex-direction: column;
   padding: 1.5rem 2rem;
-  border: 0.063rem solid black;
+  border-bottom: 0.063rem solid black;
+  border-top: 0.063rem solid black;
 }
 .red-wine-list__wine {
   padding-bottom: 0.5rem;
@@ -128,6 +129,17 @@ input {
 .red-wine-list__wine--name {
   margin: 0;
 }
+.red-wine-list__winery {
+  padding-bottom: 0.5rem;
+}
 .red-wine-list__winery--name {
   margin: 0;
+}
+.red-wine-list__origin--name {
+  margin: 0;
+}
+
+.wine-list-link {
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=RedWineList.css.map */

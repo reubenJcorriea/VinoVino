@@ -114,27 +114,4 @@ input {
     font-size: 1rem;
     line-height: 1.75rem;
   }
-}
-
-.sparkling-wine-list {
-  display: flex;
-  flex-direction: column;
-  padding: 1.5rem 2rem;
-  border-bottom: 0.063rem solid black;
-  border-top: 0.063rem solid black;
-}
-.sparkling-wine-list__wine {
-  padding-bottom: 0.5rem;
-}
-.sparkling-wine-list__wine--name {
-  margin: 0;
-}
-.sparkling-wine-list__winery {
-  padding-bottom: 0.5rem;
-}
-.sparkling-wine-list__winery--name {
-  margin: 0;
-}
-.sparkling-wine-list__origin--name {
-  margin: 0;
-}/*# sourceMappingURL=SparklingWineList.css.map */
+}/*# sourceMappingURL=SearchDetails.css.map */

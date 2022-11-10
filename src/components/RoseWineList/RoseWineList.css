@@ -128,6 +128,12 @@ input {
 .rose-wine-list__wine--name {
   margin: 0;
 }
+.rose-wine-list__winery {
+  padding-bottom: 0.5rem;
+}
 .rose-wine-list__winery--name {
+  margin: 0;
+}
+.rose-wine-list__origin--name {
   margin: 0;
 }/*# sourceMappingURL=RoseWineList.css.map */

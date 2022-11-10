@@ -46,3 +46,8 @@ input {
   @include text__body-large;
   margin: 0;
 }
+
+button {
+  @include text__links;
+  margin: 0;
+}

@@ -27,7 +27,7 @@ function PortWinePage({ wineID }) {
       <div className="port-wine-page__title-container">
         <h1 className="port-wine-page__title-container--title">PORT WINE LIST</h1>
       </div>
-      {portWine && portWine.map((wine) => <PortWineList wineId={wine.id} />)}
+      {portWine && portWine.map((wine) => <PortWineList wineId={wine.id} key={wine.id}/>)}
     </div>
   );
 }

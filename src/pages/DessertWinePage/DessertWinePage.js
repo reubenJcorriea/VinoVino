@@ -27,7 +27,7 @@ function DessertWinePage({ wineID }) {
       <div className="dessert-wine-page__title-container">
         <h1 className="dessert-wine-page__title-container--title">DESSERT WINE LIST</h1>
       </div>
-      {dessertWine && dessertWine.map((wine) => <DessertWineList wineId={wine.id} />)}
+      {dessertWine && dessertWine.map((wine) => <DessertWineList wineId={wine.id} key={wine.id} />)}
     </div>
   );
 }

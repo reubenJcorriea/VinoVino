@@ -27,7 +27,7 @@ function RedWinePage({ wineID }) {
       <div className="red-wine-page__title-container">
         <h1 className="red-wine-page__title-container--title">RED WINE LIST</h1>
       </div>
-      {redWine && redWine.map((wine) => <RedWineList wineId={wine.id} />)}
+      {redWine && redWine.map((wine) => <RedWineList wineId={wine.id} key={wine.id} />)}
     </div>
   );
 }
